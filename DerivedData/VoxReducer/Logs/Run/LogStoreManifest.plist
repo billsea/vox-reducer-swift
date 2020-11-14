@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>0325CC75-EF69-475A-8BE2-1CADC6097C19</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0325CC75-EF69-475A-8BE2-1CADC6097C19.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VoxReducer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VoxReducer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VoxReducer</string>
+			<key>timeStartedRecording</key>
+			<real>627009987.24592102</real>
+			<key>timeStoppedRecording</key>
+			<real>627010075.69439197</real>
+			<key>title</key>
+			<string>Run VoxReducer</string>
+			<key>uniqueIdentifier</key>
+			<string>0325CC75-EF69-475A-8BE2-1CADC6097C19</string>
+		</dict>
+		<key>96889932-92AC-4E72-A863-B7038954AFE0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>96889932-92AC-4E72-A863-B7038954AFE0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VoxReducer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VoxReducer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VoxReducer</string>
+			<key>timeStartedRecording</key>
+			<real>627010396.04578197</real>
+			<key>timeStoppedRecording</key>
+			<real>627010419.95508802</real>
+			<key>title</key>
+			<string>Run VoxReducer</string>
+			<key>uniqueIdentifier</key>
+			<string>96889932-92AC-4E72-A863-B7038954AFE0</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
