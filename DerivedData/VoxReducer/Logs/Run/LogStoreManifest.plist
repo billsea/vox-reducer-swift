@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0325CC75-EF69-475A-8BE2-1CADC6097C19</key>
+		<key>62B22911-55D5-4196-8605-10EB7789C05C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0325CC75-EF69-475A-8BE2-1CADC6097C19.xcactivitylog</string>
+			<string>62B22911-55D5-4196-8605-10EB7789C05C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run VoxReducer</string>
 			<key>timeStartedRecording</key>
-			<real>627009987.24592102</real>
+			<real>627115067.02291703</real>
 			<key>timeStoppedRecording</key>
-			<real>627010075.69439197</real>
+			<real>627115242.49737</real>
 			<key>title</key>
 			<string>Run VoxReducer</string>
 			<key>uniqueIdentifier</key>
-			<string>0325CC75-EF69-475A-8BE2-1CADC6097C19</string>
+			<string>62B22911-55D5-4196-8605-10EB7789C05C</string>
 		</dict>
-		<key>96889932-92AC-4E72-A863-B7038954AFE0</key>
+		<key>B48CAE18-3B5C-48FB-B194-B3B515B89D93</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>96889932-92AC-4E72-A863-B7038954AFE0.xcactivitylog</string>
+			<string>B48CAE18-3B5C-48FB-B194-B3B515B89D93.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +66,81 @@
 			<key>signature</key>
 			<string>Run VoxReducer</string>
 			<key>timeStartedRecording</key>
-			<real>627010396.04578197</real>
+			<real>627115416.94487596</real>
 			<key>timeStoppedRecording</key>
-			<real>627010419.95508802</real>
+			<real>627115464.37659502</real>
 			<key>title</key>
 			<string>Run VoxReducer</string>
 			<key>uniqueIdentifier</key>
-			<string>96889932-92AC-4E72-A863-B7038954AFE0</string>
+			<string>B48CAE18-3B5C-48FB-B194-B3B515B89D93</string>
+		</dict>
+		<key>C7AC2896-25EF-402B-A21F-C54B722E5B53</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C7AC2896-25EF-402B-A21F-C54B722E5B53.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VoxReducer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VoxReducer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VoxReducer</string>
+			<key>timeStartedRecording</key>
+			<real>627115937.55460894</real>
+			<key>timeStoppedRecording</key>
+			<real>627115966.58965504</real>
+			<key>title</key>
+			<string>Run VoxReducer</string>
+			<key>uniqueIdentifier</key>
+			<string>C7AC2896-25EF-402B-A21F-C54B722E5B53</string>
+		</dict>
+		<key>DC78F9E9-65FB-4541-9146-0F16350C3C8E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DC78F9E9-65FB-4541-9146-0F16350C3C8E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>VoxReducer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>VoxReducer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run VoxReducer</string>
+			<key>timeStartedRecording</key>
+			<real>627115623.21784902</real>
+			<key>timeStoppedRecording</key>
+			<real>627115663.579229</real>
+			<key>title</key>
+			<string>Run VoxReducer</string>
+			<key>uniqueIdentifier</key>
+			<string>DC78F9E9-65FB-4541-9146-0F16350C3C8E</string>
 		</dict>
 	</dict>
 </dict>

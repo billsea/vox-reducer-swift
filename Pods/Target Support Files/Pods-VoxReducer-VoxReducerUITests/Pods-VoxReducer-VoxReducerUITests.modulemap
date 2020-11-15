@@ -1,0 +1,6 @@
+framework module Pods_VoxReducer_VoxReducerUITests {
+  umbrella header "Pods-VoxReducer-VoxReducerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

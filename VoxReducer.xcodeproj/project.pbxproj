@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E0945D49C3BCD95DED13F8 /* Pods_VoxReducerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5AC74CDC527275FB3B2F07 /* Pods_VoxReducerTests.framework */; };
+		532C695F02C4B20325C88B8F /* Pods_VoxReducer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F342767AFC778DECC0BD51 /* Pods_VoxReducer.framework */; };
+		5A322E97A35D97AD74142BFC /* Pods_VoxReducer_VoxReducerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181D0BA9D65910F71B61AF63 /* Pods_VoxReducer_VoxReducerUITests.framework */; };
+		A9748E952560E5E500597023 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748E942560E5E500597023 /* Accelerate.framework */; };
+		A9748E972560E5FA00597023 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748E962560E5FA00597023 /* CoreGraphics.framework */; };
+		A9748E992560E61900597023 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748E982560E61800597023 /* MediaPlayer.framework */; };
+		A9748E9B2560E61F00597023 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748E9A2560E61E00597023 /* AudioToolbox.framework */; };
+		A9748E9D2560E62F00597023 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748E9C2560E62F00597023 /* CoreAudio.framework */; };
+		A9748E9F2560E63400597023 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748E9E2560E63400597023 /* AVFoundation.framework */; };
+		A9748EA12560E64800597023 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748EA02560E64800597023 /* CoreMedia.framework */; };
+		A9748F8D2560EEA200597023 /* libcommon_dsp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748DDB2560C3A300597023 /* libcommon_dsp.a */; };
 		A9EE2C42255F699A00659208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE2C41255F699A00659208 /* AppDelegate.swift */; };
 		A9EE2C44255F699A00659208 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE2C43255F699A00659208 /* SceneDelegate.swift */; };
 		A9EE2C46255F699A00659208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE2C45255F699A00659208 /* ContentView.swift */; };
@@ -35,6 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181D0BA9D65910F71B61AF63 /* Pods_VoxReducer_VoxReducerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoxReducer_VoxReducerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F342767AFC778DECC0BD51 /* Pods_VoxReducer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoxReducer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		756DFEEC820D8A427D1E889F /* Pods-VoxReducer-VoxReducerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxReducer-VoxReducerUITests.debug.xcconfig"; path = "Target Support Files/Pods-VoxReducer-VoxReducerUITests/Pods-VoxReducer-VoxReducerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		838FC408E04FDB12D39976FC /* Pods-VoxReducer-VoxReducerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxReducer-VoxReducerUITests.release.xcconfig"; path = "Target Support Files/Pods-VoxReducer-VoxReducerUITests/Pods-VoxReducer-VoxReducerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9748DDB2560C3A300597023 /* libcommon_dsp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcommon_dsp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9748DFD2560E14D00597023 /* common_dsp-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "common_dsp-bridging-header.h"; sourceTree = "<group>"; };
+		A9748E462560E41500597023 /* audioPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = audioPlayback.h; path = ../../Static_Libraries/common_dsp/common_dsp/audioPlayback.h; sourceTree = "<group>"; };
+		A9748E752560E57400597023 /* center_reducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = center_reducer.h; path = ../../Static_Libraries/common_dsp/common_dsp/center_reducer.h; sourceTree = "<group>"; };
+		A9748E7A2560E57700597023 /* filt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = filt.h; path = ../../Static_Libraries/common_dsp/common_dsp/filt.h; sourceTree = "<group>"; };
+		A9748E942560E5E500597023 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A9748E962560E5FA00597023 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9748E982560E61800597023 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A9748E9A2560E61E00597023 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A9748E9C2560E62F00597023 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A9748E9E2560E63400597023 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A9748EA02560E64800597023 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A9748F5C2560EA2600597023 /* libcommon_dsp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcommon_dsp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EE2C3E255F699A00659208 /* VoxReducer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoxReducer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EE2C41255F699A00659208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9EE2C43255F699A00659208 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +77,11 @@
 		A9EE2C5F255F699E00659208 /* VoxReducerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoxReducerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EE2C63255F699E00659208 /* VoxReducerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoxReducerUITests.swift; sourceTree = "<group>"; };
 		A9EE2C65255F699E00659208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9A9F807F77992DC6B016BB /* Pods-VoxReducer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxReducer.release.xcconfig"; path = "Target Support Files/Pods-VoxReducer/Pods-VoxReducer.release.xcconfig"; sourceTree = "<group>"; };
+		BBBD2E0AD97502F2861729AC /* Pods-VoxReducerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxReducerTests.release.xcconfig"; path = "Target Support Files/Pods-VoxReducerTests/Pods-VoxReducerTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC063F862D05C39A3BD36BCC /* Pods-VoxReducerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxReducerTests.debug.xcconfig"; path = "Target Support Files/Pods-VoxReducerTests/Pods-VoxReducerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5AC74CDC527275FB3B2F07 /* Pods_VoxReducerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoxReducerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16F2EBB97748714F79F0AEC /* Pods-VoxReducer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxReducer.debug.xcconfig"; path = "Target Support Files/Pods-VoxReducer/Pods-VoxReducer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9748EA12560E64800597023 /* CoreMedia.framework in Frameworks */,
+				A9748E9F2560E63400597023 /* AVFoundation.framework in Frameworks */,
+				A9748E972560E5FA00597023 /* CoreGraphics.framework in Frameworks */,
+				A9748E952560E5E500597023 /* Accelerate.framework in Frameworks */,
+				A9748E9B2560E61F00597023 /* AudioToolbox.framework in Frameworks */,
+				A9748F8D2560EEA200597023 /* libcommon_dsp.a in Frameworks */,
+				A9748E992560E61900597023 /* MediaPlayer.framework in Frameworks */,
+				A9748E9D2560E62F00597023 /* CoreAudio.framework in Frameworks */,
+				532C695F02C4B20325C88B8F /* Pods_VoxReducer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E0945D49C3BCD95DED13F8 /* Pods_VoxReducerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +113,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A322E97A35D97AD74142BFC /* Pods_VoxReducer_VoxReducerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14E76BDD36BCCB13F416427A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9748F5C2560EA2600597023 /* libcommon_dsp.a */,
+				A9748EA02560E64800597023 /* CoreMedia.framework */,
+				A9748E9E2560E63400597023 /* AVFoundation.framework */,
+				A9748E9C2560E62F00597023 /* CoreAudio.framework */,
+				A9748E9A2560E61E00597023 /* AudioToolbox.framework */,
+				A9748E982560E61800597023 /* MediaPlayer.framework */,
+				A9748E962560E5FA00597023 /* CoreGraphics.framework */,
+				A9748E942560E5E500597023 /* Accelerate.framework */,
+				A9748DDB2560C3A300597023 /* libcommon_dsp.a */,
+				A9748E7A2560E57700597023 /* filt.h */,
+				A9748E752560E57400597023 /* center_reducer.h */,
+				62F342767AFC778DECC0BD51 /* Pods_VoxReducer.framework */,
+				A9748E462560E41500597023 /* audioPlayback.h */,
+				181D0BA9D65910F71B61AF63 /* Pods_VoxReducer_VoxReducerUITests.framework */,
+				EC5AC74CDC527275FB3B2F07 /* Pods_VoxReducerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C433BFB967CC91E35CB9D82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F16F2EBB97748714F79F0AEC /* Pods-VoxReducer.debug.xcconfig */,
+				AB9A9F807F77992DC6B016BB /* Pods-VoxReducer.release.xcconfig */,
+				756DFEEC820D8A427D1E889F /* Pods-VoxReducer-VoxReducerUITests.debug.xcconfig */,
+				838FC408E04FDB12D39976FC /* Pods-VoxReducer-VoxReducerUITests.release.xcconfig */,
+				EC063F862D05C39A3BD36BCC /* Pods-VoxReducerTests.debug.xcconfig */,
+				BBBD2E0AD97502F2861729AC /* Pods-VoxReducerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A9EE2C35255F699A00659208 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +162,8 @@
 				A9EE2C57255F699E00659208 /* VoxReducerTests */,
 				A9EE2C62255F699E00659208 /* VoxReducerUITests */,
 				A9EE2C3F255F699A00659208 /* Products */,
+				3C433BFB967CC91E35CB9D82 /* Pods */,
+				14E76BDD36BCCB13F416427A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +187,7 @@
 				A9EE2C4C255F699D00659208 /* LaunchScreen.storyboard */,
 				A9EE2C4F255F699D00659208 /* Info.plist */,
 				A9EE2C49255F699D00659208 /* Preview Content */,
+				A9748DFD2560E14D00597023 /* common_dsp-bridging-header.h */,
 			);
 			path = VoxReducer;
 			sourceTree = "<group>";
@@ -143,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9EE2C68255F699E00659208 /* Build configuration list for PBXNativeTarget "VoxReducer" */;
 			buildPhases = (
+				E91878F6831D7BB08DB16966 /* [CP] Check Pods Manifest.lock */,
 				A9EE2C3A255F699A00659208 /* Sources */,
 				A9EE2C3B255F699A00659208 /* Frameworks */,
 				A9EE2C3C255F699A00659208 /* Resources */,
+				D1F701A04F598F5F4CA9D0A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9EE2C6B255F699E00659208 /* Build configuration list for PBXNativeTarget "VoxReducerTests" */;
 			buildPhases = (
+				52A62261B0E24DA47605C8A5 /* [CP] Check Pods Manifest.lock */,
 				A9EE2C50255F699E00659208 /* Sources */,
 				A9EE2C51255F699E00659208 /* Frameworks */,
 				A9EE2C52255F699E00659208 /* Resources */,
@@ -178,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9EE2C6E255F699E00659208 /* Build configuration list for PBXNativeTarget "VoxReducerUITests" */;
 			buildPhases = (
+				051F2B9B1D4B0E452E1C80BE /* [CP] Check Pods Manifest.lock */,
 				A9EE2C5B255F699E00659208 /* Sources */,
 				A9EE2C5C255F699E00659208 /* Frameworks */,
 				A9EE2C5D255F699E00659208 /* Resources */,
+				74D28CFFB32DD57BCD5464F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +348,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		051F2B9B1D4B0E452E1C80BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoxReducer-VoxReducerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A62261B0E24DA47605C8A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoxReducerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D28CFFB32DD57BCD5464F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoxReducer-VoxReducerUITests/Pods-VoxReducer-VoxReducerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoxReducer-VoxReducerUITests/Pods-VoxReducer-VoxReducerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoxReducer-VoxReducerUITests/Pods-VoxReducer-VoxReducerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F701A04F598F5F4CA9D0A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoxReducer/Pods-VoxReducer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoxReducer/Pods-VoxReducer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoxReducer/Pods-VoxReducer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E91878F6831D7BB08DB16966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoxReducer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9EE2C3A255F699A00659208 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -321,7 +511,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -352,7 +542,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -366,13 +556,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -382,7 +575,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -413,7 +606,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -421,60 +614,106 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		A9EE2C69255F699E00659208 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16F2EBB97748714F79F0AEC /* Pods-VoxReducer.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"VoxReducer/Preview Content\"";
 				DEVELOPMENT_TEAM = ZZGJ2UYWJY;
 				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Rollbar/Rollbar.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+				);
 				INFOPLIST_FILE = VoxReducer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loudsoftware.VoxReducer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/VoxReducer/common_dsp-bridging-header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		A9EE2C6A255F699E00659208 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9A9F807F77992DC6B016BB /* Pods-VoxReducer.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"VoxReducer/Preview Content\"";
 				DEVELOPMENT_TEAM = ZZGJ2UYWJY;
 				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Rollbar/Rollbar.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+				);
 				INFOPLIST_FILE = VoxReducer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loudsoftware.VoxReducer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/VoxReducer/common_dsp-bridging-header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		A9EE2C6C255F699E00659208 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC063F862D05C39A3BD36BCC /* Pods-VoxReducerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +736,7 @@
 		};
 		A9EE2C6D255F699E00659208 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBD2E0AD97502F2861729AC /* Pods-VoxReducerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +759,7 @@
 		};
 		A9EE2C6F255F699E00659208 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756DFEEC820D8A427D1E889F /* Pods-VoxReducer-VoxReducerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +780,7 @@
 		};
 		A9EE2C70255F699E00659208 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838FC408E04FDB12D39976FC /* Pods-VoxReducer-VoxReducerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
