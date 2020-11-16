@@ -18,6 +18,7 @@
 		A9748E9F2560E63400597023 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748E9E2560E63400597023 /* AVFoundation.framework */; };
 		A9748EA12560E64800597023 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748EA02560E64800597023 /* CoreMedia.framework */; };
 		A9748F8D2560EEA200597023 /* libcommon_dsp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748DDB2560C3A300597023 /* libcommon_dsp.a */; };
+		A998D20F25621CD300CC097E /* SongPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998D20E25621CD300CC097E /* SongPicker.swift */; };
 		A9EE2C42255F699A00659208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE2C41255F699A00659208 /* AppDelegate.swift */; };
 		A9EE2C44255F699A00659208 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE2C43255F699A00659208 /* SceneDelegate.swift */; };
 		A9EE2C46255F699A00659208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE2C45255F699A00659208 /* ContentView.swift */; };
@@ -63,6 +64,7 @@
 		A9748E9E2560E63400597023 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A9748EA02560E64800597023 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A9748F5C2560EA2600597023 /* libcommon_dsp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcommon_dsp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A998D20E25621CD300CC097E /* SongPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPicker.swift; sourceTree = "<group>"; };
 		A9EE2C3E255F699A00659208 /* VoxReducer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoxReducer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EE2C41255F699A00659208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9EE2C43255F699A00659208 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				A9EE2C4F255F699D00659208 /* Info.plist */,
 				A9EE2C49255F699D00659208 /* Preview Content */,
 				A9748DFD2560E14D00597023 /* common_dsp-bridging-header.h */,
+				A998D20E25621CD300CC097E /* SongPicker.swift */,
 			);
 			path = VoxReducer;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				A9EE2C42255F699A00659208 /* AppDelegate.swift in Sources */,
 				A9EE2C44255F699A00659208 /* SceneDelegate.swift in Sources */,
 				A9EE2C46255F699A00659208 /* ContentView.swift in Sources */,
+				A998D20F25621CD300CC097E /* SongPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
