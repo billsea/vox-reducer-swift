@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct SongPicker: UIViewControllerRepresentable {
+  @State private var mediaItem: MPMediaItem?
+  @Environment(\.presentationMode) var presentationMode
 
   func makeUIViewController(context: UIViewControllerRepresentableContext<SongPicker>) -> MPMediaPickerController {
     let mediaPicker = MPMediaPickerController()
     mediaPicker.showsCloudItems = false
     mediaPicker.allowsPickingMultipleItems = false
-    mediaPicker.delegate = context.coordinator
+    mediaPicker.delegate = context.coordinator as? MPMediaPickerControllerDelegate
     mediaPicker.prompt = "Select song"
     
     return mediaPicker
@@ -24,11 +26,23 @@ struct SongPicker: UIViewControllerRepresentable {
   }
   
   func makeCoordinator() -> Coordinator {
-      Coordinator()
+      Coordinator(self)
   }
   
-  class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    // see this: https://www.hackingwithswift.com/books/ios-swiftui/using-coordinators-to-manage-swiftui-view-controllers
+  class Coordinator: NSObject, MPMediaPickerControllerDelegate, UINavigationControllerDelegate {
+    var parent: SongPicker
 
+    init(_ parent: SongPicker) {
+        self.parent = parent
+    }
+
+    func mediaPicker(_ mediaPicker: MPMediaPickerController, didPickMediaItems mediaItemCollection: MPMediaItemCollection) {
+      // Load selected media item
+      if let mediaItem = mediaItemCollection.items.first {
+          parent.mediaItem = mediaItem
+      }
+
+      parent.presentationMode.wrappedValue.dismiss()
+    }
   }
 }
