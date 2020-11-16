@@ -10,10 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
   fileprivate var player: audioPlayback?
-
-  @State private var media: MPMediaItem?
   @State private var showingSongPicker = false
 
+  // TODO: Listen to mediaItem State and pass to audioPlayback.setUserMediaItemCollection:
+  // i.e. [_player setUserMediaItemCollection:_userMediaItemCollection];
 
   var body: some View {
     Text("Hello, world...!")
