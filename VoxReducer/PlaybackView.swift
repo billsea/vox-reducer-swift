@@ -1,22 +1,24 @@
 //
-//  ContentView.swift
+//  PlaybackView.swift
 //  VoxReducer
 //
-//  Created by Loud on 11/13/20.
+//  Created by Loud on 12/13/20.
 //
 
 import CoreMedia
 import SwiftUI
 
-struct ContentView: View {
+// Note: Must use device for song picker.
+
+// TODO: Listen to mediaItem State and pass to audioPlayback.setUserMediaItemCollection:
+// i.e. [_player setUserMediaItemCollection:_userMediaItemCollection];
+
+struct PlaybackView: View {
   fileprivate var player: audioPlayback?
   @State private var showingSongPicker = false
 
-  // TODO: Listen to mediaItem State and pass to audioPlayback.setUserMediaItemCollection:
-  // i.e. [_player setUserMediaItemCollection:_userMediaItemCollection];
-
   var body: some View {
-    Text("Hello, world...!")
+    Text("Playback")
       .padding()
       .foregroundColor(.green)
 
@@ -52,8 +54,8 @@ struct ContentView: View {
   }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct PlaybackView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        PlaybackView()
     }
 }
