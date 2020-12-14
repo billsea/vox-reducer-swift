@@ -10,6 +10,7 @@
 		22E0945D49C3BCD95DED13F8 /* Pods_VoxReducerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5AC74CDC527275FB3B2F07 /* Pods_VoxReducerTests.framework */; };
 		532C695F02C4B20325C88B8F /* Pods_VoxReducer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F342767AFC778DECC0BD51 /* Pods_VoxReducer.framework */; };
 		5A322E97A35D97AD74142BFC /* Pods_VoxReducer_VoxReducerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181D0BA9D65910F71B61AF63 /* Pods_VoxReducer_VoxReducerUITests.framework */; };
+		A905396D25873331003E07C9 /* PlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905396C25873331003E07C9 /* PlaybackView.swift */; };
 		A9748E952560E5E500597023 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748E942560E5E500597023 /* Accelerate.framework */; };
 		A9748E972560E5FA00597023 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748E962560E5FA00597023 /* CoreGraphics.framework */; };
 		A9748E992560E61900597023 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9748E982560E61800597023 /* MediaPlayer.framework */; };
@@ -21,7 +22,6 @@
 		A998D20F25621CD300CC097E /* SongPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998D20E25621CD300CC097E /* SongPicker.swift */; };
 		A9EE2C42255F699A00659208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE2C41255F699A00659208 /* AppDelegate.swift */; };
 		A9EE2C44255F699A00659208 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE2C43255F699A00659208 /* SceneDelegate.swift */; };
-		A9EE2C46255F699A00659208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE2C45255F699A00659208 /* ContentView.swift */; };
 		A9EE2C48255F699D00659208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9EE2C47255F699D00659208 /* Assets.xcassets */; };
 		A9EE2C4B255F699D00659208 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9EE2C4A255F699D00659208 /* Preview Assets.xcassets */; };
 		A9EE2C4E255F699D00659208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EE2C4C255F699D00659208 /* LaunchScreen.storyboard */; };
@@ -51,6 +51,7 @@
 		62F342767AFC778DECC0BD51 /* Pods_VoxReducer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoxReducer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		756DFEEC820D8A427D1E889F /* Pods-VoxReducer-VoxReducerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxReducer-VoxReducerUITests.debug.xcconfig"; path = "Target Support Files/Pods-VoxReducer-VoxReducerUITests/Pods-VoxReducer-VoxReducerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		838FC408E04FDB12D39976FC /* Pods-VoxReducer-VoxReducerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxReducer-VoxReducerUITests.release.xcconfig"; path = "Target Support Files/Pods-VoxReducer-VoxReducerUITests/Pods-VoxReducer-VoxReducerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A905396C25873331003E07C9 /* PlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackView.swift; sourceTree = "<group>"; };
 		A9748DDB2560C3A300597023 /* libcommon_dsp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcommon_dsp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9748DFD2560E14D00597023 /* common_dsp-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "common_dsp-bridging-header.h"; sourceTree = "<group>"; };
 		A9748E462560E41500597023 /* audioPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = audioPlayback.h; path = ../../Static_Libraries/common_dsp/common_dsp/audioPlayback.h; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		A9EE2C3E255F699A00659208 /* VoxReducer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoxReducer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EE2C41255F699A00659208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9EE2C43255F699A00659208 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9EE2C45255F699A00659208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9EE2C47255F699D00659208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9EE2C4A255F699D00659208 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9EE2C4D255F699D00659208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -157,6 +157,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A90539942587357A003E07C9 /* Playback */ = {
+			isa = PBXGroup;
+			children = (
+				A905396C25873331003E07C9 /* PlaybackView.swift */,
+				A998D20E25621CD300CC097E /* SongPicker.swift */,
+			);
+			name = Playback;
+			sourceTree = "<group>";
+		};
 		A9EE2C35255F699A00659208 = {
 			isa = PBXGroup;
 			children = (
@@ -182,15 +191,14 @@
 		A9EE2C40255F699A00659208 /* VoxReducer */ = {
 			isa = PBXGroup;
 			children = (
+				A90539942587357A003E07C9 /* Playback */,
 				A9EE2C41255F699A00659208 /* AppDelegate.swift */,
 				A9EE2C43255F699A00659208 /* SceneDelegate.swift */,
-				A9EE2C45255F699A00659208 /* ContentView.swift */,
 				A9EE2C47255F699D00659208 /* Assets.xcassets */,
 				A9EE2C4C255F699D00659208 /* LaunchScreen.storyboard */,
 				A9EE2C4F255F699D00659208 /* Info.plist */,
 				A9EE2C49255F699D00659208 /* Preview Content */,
 				A9748DFD2560E14D00597023 /* common_dsp-bridging-header.h */,
-				A998D20E25621CD300CC097E /* SongPicker.swift */,
 			);
 			path = VoxReducer;
 			sourceTree = "<group>";
@@ -461,7 +469,7 @@
 			files = (
 				A9EE2C42255F699A00659208 /* AppDelegate.swift in Sources */,
 				A9EE2C44255F699A00659208 /* SceneDelegate.swift in Sources */,
-				A9EE2C46255F699A00659208 /* ContentView.swift in Sources */,
+				A905396D25873331003E07C9 /* PlaybackView.swift in Sources */,
 				A998D20F25621CD300CC097E /* SongPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
